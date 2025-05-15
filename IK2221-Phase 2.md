@@ -1,4 +1,4 @@
-#PASSWORD: `BnxxcLJTDmgR`
+# PASSWORD: `BnxxcLJTDmgR`
 # 1. Sys init
 # Connect SSH
 1. Open terminal
