@@ -78,6 +78,6 @@ tmux detach
 2. use ⬆️ ⬇️ ⬅️ ➡️ to move
 
 ## 4. Scroll up and down in tmux
-1. Press Ctrl + b 
-2. Press [ (left square bracket).
-3. To return to exit mode, press q
+1. Press `Ctrl + b`
+2. Press `[` (left square bracket).
+3. To return to exit mode, press `q`
