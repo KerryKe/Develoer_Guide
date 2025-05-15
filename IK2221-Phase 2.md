@@ -61,7 +61,7 @@ streamlit run frontend.py
 ```
 7. Visit the frontend on 
 ```
-http://192.168.2.30:8501
+http://localhost:8501
 ```
 # Others attach the session
 ## Open terminal
@@ -76,3 +76,8 @@ tmux detach
 ## 3. Move between windows:
 1. Press `ctrl/control + b`
 2. use ⬆️ ⬇️ ⬅️ ➡️ to move
+
+## 4. Scroll up and down in tmux
+1. Press Ctrl + b 
+2. Press [ (left square bracket).
+3. To return to exit mode, press q
