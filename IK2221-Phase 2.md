@@ -22,7 +22,7 @@ tmux attach -t ik2221
 ```
 tmux detach
 ```
-2. Split 3 windows horizional
+2. Split 4 windows horizional
 ```
 tmux split-window -h
 ```
@@ -59,7 +59,12 @@ export PYTHONPATH
 cd /home/ik2221vt25g02/lmcache-vllm-extended/frontend
 streamlit run frontend.py
 ```
-7. Visit the frontend on 
+7. On Terminal 4:
+- GPU usage monitoring (-d flag highlights differences between the outputs)
+```
+watch -d -n 0.5 nvidia-smi
+```
+8. Visit the frontend on 
 ```
 http://localhost:8501
 ```
