@@ -34,7 +34,7 @@ source venv/bin/activate
 PYTHONPATH="$(pwd)/LMCache:$(pwd)/lmcache-vllm-extended:$PYTHONPATH"
 export PYTHONPATH
 cd lmcache-server/
-python -m lmcache_server.server 192.168.2.30 65432 ./lmcache
+python -m lmcache_server.server 192.168.2.30 65432 ./lmcache/
 ```
 5. On Terminal 2:
 ```
